@@ -1,0 +1,36 @@
+# === GLOBAL ===
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+*.code-workspace
+
+# === FRONTEND (client/) ===
+client/node_modules/
+client/dist/
+client/.vite/
+client/.env
+
+# === BACKEND (server/) ===
+server/node_modules/
+server/dist/
+server/build/
+server/.env
+
+# === TEST / COVERAGE ===
+coverage/
+*.test.ts
+*.spec.ts
+jest-*
+
+# === OS / SYSTEM ===
+Thumbs.db
+*.swp
+*.swo

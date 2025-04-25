@@ -4,6 +4,7 @@ export const FONT_FAMILY = {
 	grandstander: '"Grandstander", serif;'
 };
 
+
 export const FONT_WEIGHT = {
 	regular: '400',
 	bold: '700'
